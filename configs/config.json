@@ -1,0 +1,9 @@
+{
+    "server": {
+        "port": 3000, 
+        "host": "localhost",
+    },
+    "debug": true,
+    "unquoted_key": value
+
+}
