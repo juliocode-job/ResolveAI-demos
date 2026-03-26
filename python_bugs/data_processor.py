@@ -1,7 +1,6 @@
 def process_data(items):
     parsed = []
-    for i in range(len(items) + 1):
-        item = items[i]
+    for item in items:
 
         parsed.append(item['value'])
     return parsed
