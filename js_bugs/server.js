@@ -7,6 +7,7 @@ app.get('/api/users', (req, res, next) => {
         throw new Error("Generic failure to fetch users");
     } catch (err) {
         console.error(err);
+        res.status(500).json({ error: 'Internal Server Error', message: err.message });
     }
 
 });
